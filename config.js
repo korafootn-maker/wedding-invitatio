@@ -6,7 +6,7 @@
 */
 window.WEDDING_CONFIG = {
   groomName: "الهادي الزين حمد النيل",
-  brideName: "شخص ما",
+  brideName: " ما عارف اسم والله ",
   dateISO: "2027-01-01T18:00:00+02:00",
   dateArabic: "الجمعة، 1 يناير 2027",
   dateEnglish: "Friday, January 1, 2027",
