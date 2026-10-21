@@ -17,6 +17,6 @@ window.WEDDING_CONFIG = {
   
 appsScriptUrl: "https://script.google.com/macros/s/AKfycbx4ROa9jk8ZfKGiNJJLtTtHGG80-sMUbj8Rsm5dotngp3fDiOyLD3lzr29_OEu6PJd_1g/exec",
   
-  groomPhotoUrl: "",
+  groomPhotoUrl: "groom.jpg",
   bridePhotoUrl: ""
 };
