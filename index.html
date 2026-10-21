@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171512">
+  <meta name="description" content="دعوة زفاف الهادي الزين حمد النيل وشخص ما">
+  <title>دعوة زفاف | الهادي وشخص ما</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ornament ornament-top" aria-hidden="true">✦</div>
+  <main class="invitation">
+    <div class="eyebrow">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيم</div>
+    <div class="gold-line"><span>❦</span></div>
+    <p class="intro" data-ar="بكل الحب والفرح، نتشرف بدعوتكم لمشاركتنا أجمل البدايات" data-en="With love and joy, you are warmly invited to celebrate a beautiful beginning.">بكل الحب والفرح، نتشرف بدعوتكم لمشاركتنا أجمل البدايات</p>
+    <p class="small-caps">THE WEDDING CELEBRATION</p>
+    <h1 id="groomName">الهادي الزين حمد النيل</h1>
+    <div class="ampersand">&amp;</div>
+    <h2 id="brideName">شخص ما</h2>
+    <p class="blessing" data-ar="﴿ وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنْفُسِكُمْ أَزْوَاجًا ﴾" data-en="“And among His signs is that He created for you spouses from among yourselves.”">﴿ وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنْفُسِكُمْ أَزْوَاجًا ﴾</p>
+
+    <section class="details">
+      <div class="detail"><span class="detail-label" data-ar="التاريخ" data-en="DATE">التاريخ</span><strong id="dateText">الجمعة، 1 يناير 2027</strong></div>
+      <div class="vertical-line"></div>
+      <div class="detail"><span class="detail-label" data-ar="المكان" data-en="VENUE">المكان</span><strong id="venueText">صالة الإحسان — الدويم</strong></div>
+    </section>
+
+    <div class="countdown-wrap">
+      <p data-ar="الوقت حتى يومنا المميز" data-en="COUNTING DOWN TO OUR SPECIAL DAY">الوقت حتى يومنا المميز</p>
+      <div class="countdown" aria-live="polite">
+        <div><strong id="days">--</strong><span data-ar="يوم" data-en="DAYS">يوم</span></div>
+        <div><strong id="hours">--</strong><span data-ar="ساعة" data-en="HOURS">ساعة</span></div>
+        <div><strong id="minutes">--</strong><span data-ar="دقيقة" data-en="MINUTES">دقيقة</span></div>
+        <div><strong id="seconds">--</strong><span data-ar="ثانية" data-en="SECONDS">ثانية</span></div>
+      </div>
+    </div>
+
+    <section class="photos" aria-label="صور العروسين">
+      <div class="photo-frame">
+        <img id="groomPhoto" src="assets/groom-placeholder.svg" alt="صورة العريس">
+        <label class="upload-label" for="groomUpload">إضافة صورة العريس</label>
+        <input id="groomUpload" type="file" accept="image/*">
+      </div>
+      <div class="photo-frame">
+        <img id="bridePhoto" src="assets/bride-placeholder.svg" alt="صورة العروس">
+        <label class="upload-label" for="brideUpload">إضافة صورة العروس</label>
+        <input id="brideUpload" type="file" accept="image/*">
+      </div>
+    </section>
+    <p class="photo-note" data-ar="الصور المختارة هنا للمعاينة على جهازك فقط. لن تظهر للضيوف إلا بعد رفعها إلى استضافة عامة أو إعداد روابط صور عامة." data-en="Photo selections preview on this device only. To show them to guests, upload them to public hosting or configure public image URLs.">الصور المختارة هنا للمعاينة على جهازك فقط. لن تظهر للضيوف إلا بعد رفعها إلى استضافة عامة أو إعداد روابط صور عامة.</p>
+
+    <section class="rsvp-section" id="rsvp">
+      <div class="gold-line"><span>RSVP</span></div>
+      <h3 data-ar="يشرفنا تأكيد حضوركم" data-en="KINDLY REPLY">يشرفنا تأكيد حضوركم</h3>
+      <p data-ar="يرجى تعبئة النموذج قبل موعد الحفل." data-en="Please let us know if you can join us.">يرجى تعبئة النموذج قبل موعد الحفل.</p>
+      <form id="rsvpForm">
+        <label for="guestName" data-ar="الاسم الكامل" data-en="Full name">الاسم الكامل</label>
+        <input id="guestName" name="guestName" required maxlength="100" autocomplete="name" placeholder="اكتب اسمك / Your name">
+        <label for="attendance" data-ar="هل ستحضر؟" data-en="Will you attend?">هل ستحضر؟</label>
+        <select id="attendance" name="attendance" required>
+          <option value="نعم / Yes">نعم، سأحضر / Yes, I'll attend</option>
+          <option value="لا / No">أعتذر عن الحضور / Sorry, can't attend</option>
+        </select>
+        <label for="guests" data-ar="عدد الأشخاص (بما فيهم أنت)" data-en="Number of people (including you)">عدد الأشخاص (بما فيهم أنت)</label>
+        <select id="guests" name="guests">
+          <option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5+</option>
+        </select>
+        <label for="note" data-ar="رسالة اختيارية" data-en="Optional message">رسالة اختيارية</label>
+        <textarea id="note" name="note" rows="3" maxlength="500" placeholder="رسالتك للعروسين / A message for the couple"></textarea>
+        <button type="submit" class="primary-btn" data-ar="إرسال تأكيد الحضور" data-en="Submit RSVP">إرسال تأكيد الحضور</button>
+        <p id="formStatus" class="status" role="status"></p>
+      </form>
+      <div class="secondary-actions">
+        <a id="whatsappLink" class="secondary-btn" href="#" target="_blank" rel="noopener">تأكيد عبر واتساب / WhatsApp</a>
+        <a id="mapLink" class="secondary-btn" href="https://www.google.com/maps/search/?api=1&query=صالة+الإحسان+الدويم" target="_blank" rel="noopener">افتح الموقع في خرائط Google / Map</a>
+      </div>
+      <p class="privacy-note">لن يتم حفظ الردود في Google Sheets إلا بعد نشر سكربت Google Apps Script ووضع رابط النشر في ملف الإعدادات.</p>
+    </section>
+
+    <footer>
+      <p data-ar="فرحتنا تكتمل بوجودكم" data-en="Our joy is complete with you.">فرحتنا تكتمل بوجودكم</p>
+      <div class="footer-controls">
+        <button id="langToggle" type="button" class="text-btn">English</button>
+        <button id="shareBtn" type="button" class="text-btn">مشاركة الدعوة / Share</button>
+      </div>
+      <small>With love • 2027</small>
+    </footer>
+  </main>
+  <div class="ornament ornament-bottom" aria-hidden="true">✦</div>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
