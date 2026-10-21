@@ -13,8 +13,10 @@ window.WEDDING_CONFIG = {
   venueArabic: "صالة الإحسان — الدويم",
   venueEnglish: "Al-Ihsan Hall — Al-Duwaym, Sudan",
   mapUrl: "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent("صالة الإحسان الدويم السودان"),
-  whatsappNumber: "",
-  appsScriptUrl: "",
+  whatsappNumber: "+249903837519",
+  
+appsScriptUrl: "https://script.google.com/macros/s/AKfycbx4ROa9jk8ZfKGiNJJLtTtHGG80-sMUbj8Rsm5dotngp3fDiOyLD3lzr29_OEu6PJd_1g/exec",
+  
   groomPhotoUrl: "",
   bridePhotoUrl: ""
 };
